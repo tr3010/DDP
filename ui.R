@@ -7,7 +7,7 @@ shinyUI(
       numericInput('weight', 'Your weight in kg', 0, min = 0),
       submitButton('Calculate BMI'),
       br(),
-      p(strong(em("Documentation:",a("Body Mass Index Classification in Adults",href="READMe.html")))),
+      p(strong(em("Documentation:",a("Body Mass Index Classification in Adults",href="README.html")))),
       p(strong(em("Github repository:",a("Developing Data Products",href="https://github.com/tr3010/DDP"))))
     ),
     mainPanel(
